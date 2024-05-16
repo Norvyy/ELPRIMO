@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "ELPRIMO",
+  "description": "PER IL FUTURO",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
